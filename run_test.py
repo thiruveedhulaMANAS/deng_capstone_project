@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import inspect
 import re
+import numpy as np
 
 def detect_hardcoded_return(func, expected_output):
     try:
